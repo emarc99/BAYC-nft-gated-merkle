@@ -1,0 +1,26 @@
+{
+    "name": "bayc_airdrop",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+        "hardhat": "^2.22.10"
+    },
+    "dependencies": {
+        "@openzeppelin/contracts": "^5.0.2",
+        "@openzeppelin/merkle-tree": "^1.0.7",
+        "cryptojs": "^2.5.3",
+        "csv-parser": "^3.0.0",
+        "dotenv": "^16.4.5",
+        "fs": "^0.0.1-security",
+        "keccak256": "^1.0.6",
+        "merkletreejs": "^0.4.0"
+    }
+}
